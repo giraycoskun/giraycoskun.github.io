@@ -1,2 +1,21 @@
 site_name: My Github Projects
-theme: material
+
+theme: 
+  name: material
+  features:
+    - navigation.indexes
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav: 
+  - Home: index.md
+  - Flask Blogging Website: flask-blogging-website.md
