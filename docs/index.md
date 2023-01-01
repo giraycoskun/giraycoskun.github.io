@@ -1,4 +1,9 @@
-# My Projects
+---
+hide:
+  - toc
+---
+
+# My Projects Overview
 
 This is a landing page for all public projects of mine. 
 If interested; I also have a personal website for my blog and CV.
@@ -10,7 +15,7 @@ If interested; I also have a personal website for my blog and CV.
 
 | Project Name                                          | Description                                      | Github                                                        | Status         |
 | ----------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------- | -------------- |
-| [Flask Blogging Website](./flask-blogging-website.md) | An opiniated blogging website template via Flask | [Docs](https://giraycoskun.github.io/Flask-Blogging-Website/) | :green_square: |
+| [Flask Blogging Website](./projects/flask-blogging-website.md) | An opiniated blogging website template via Flask | [Docs](https://giraycoskun.github.io/Flask-Blogging-Website/) | :green_square: |
 
 ---
 

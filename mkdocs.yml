@@ -3,7 +3,13 @@ site_name: My Github Projects
 theme: 
   name: material
   features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
     - navigation.indexes
+    - toc.follow
+
 
 markdown_extensions:
   - attr_list
@@ -16,6 +22,7 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-nav: 
-  - Home: index.md
-  - Flask Blogging Website: flask-blogging-website.md
+nav:
+  - Overview: index.md
+  - Projects:
+    - Flask Blogging Website: projects/flask-blogging-website.md
